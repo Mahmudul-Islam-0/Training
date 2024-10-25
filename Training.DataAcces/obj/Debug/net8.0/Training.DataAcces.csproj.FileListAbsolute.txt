@@ -1,0 +1,17 @@
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\bin\Debug\net8.0\Training.DataAcces.deps.json
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\bin\Debug\net8.0\Training.DataAcces.runtimeconfig.json
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\bin\Debug\net8.0\Training.DataAcces.dll
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\bin\Debug\net8.0\Training.DataAcces.pdb
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\bin\Debug\net8.0\Training.Models.dll
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\bin\Debug\net8.0\Training.Models.pdb
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\Training.DataAcces.csproj.AssemblyReference.cache
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\Training.DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\Training.DataAcces.AssemblyInfoInputs.cache
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\Training.DataAcces.AssemblyInfo.cs
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\Training.DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\Training.949E5141.Up2Date
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\Training.DataAcces.dll
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\refint\Training.DataAcces.dll
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\Training.DataAcces.pdb
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\Training.DataAcces.genruntimeconfig.cache
+C:\Users\Afnan\source\repos\Training\Training.DataAcces\obj\Debug\net8.0\ref\Training.DataAcces.dll
