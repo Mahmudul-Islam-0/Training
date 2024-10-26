@@ -18,7 +18,7 @@ namespace Training.DataAcces.Repository.Implement
         public async Task AddAsync(Designation model)
         {
             if (model == null) throw new ArgumentNullException(nameof(model));
-            await db.Set<Designation>().AddAsync(model); // Add the designation to the context
+            await db.Set<Designation>().AddAsync(model); 
         }
 
     }
