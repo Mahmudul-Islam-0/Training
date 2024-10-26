@@ -16,27 +16,25 @@ namespace Training.MVC.Controllers
 
         public async Task<IActionResult> DesignationView()
         {
-            var designations = await unitOfWork.DesignationRepo.GetAll(); // Fetch designations
-            return View(designations); // Pass the list to the view
+            var designations = await unitOfWork.DesignationRepo.GetAll(); 
+            return View(designations);
         }
 
-        // Action to show the form for creating a new designation
         public IActionResult DesignationSave()
         {
-            return View(); // Return the view for creating a new designation
+            return View(); 
         }
 
-        // Action to handle the form submission for creating a new designation
         [HttpPost]
-        public async Task<IActionResult> DesignationSave(Designation designation) // Assuming Designation is your model
+        public async Task<IActionResult> DesignationSave(Designation designation) 
         {
             if (ModelState.IsValid)
             {
                 await unitOfWork.DesignationRepo.AddAsync(designation);
-                await unitOfWork.DesignationRepo.Save(); // Save changes
-                return RedirectToAction("DesignationView"); // Redirect to the designation list after saving
+                await unitOfWork.DesignationRepo.Save(); 
+                return RedirectToAction("DesignationView"); 
             }
-            return View(designation); // Return the same view with the model if validation fails
+            return View(designation); 
         }
 
         [HttpGet]
