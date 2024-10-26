@@ -9,5 +9,7 @@ namespace Training.DataAcces.Repository.Interface
 {
     public interface IDepartmentRepo : IRepository<Department>
     {
+        Task AddAsync(Department department);
+        Task<List<Department>> ToListAsync();
     }
 }

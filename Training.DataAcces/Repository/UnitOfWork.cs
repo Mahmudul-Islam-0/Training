@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace Training.DataAcces.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
+        private readonly TrainingDBContext db;
+
         public IDepartmentRepo DepartmentRepo { get; private set; }
 
         public IEmployeeRepo EmployeeRepo { get; private set; }
@@ -22,6 +25,9 @@ namespace Training.DataAcces.Repository
             DesignationRepo = new DesignationRepo(db); 
         }
 
-        
+        public async Task Save()
+        {
+            await db.SaveChangesAsync();
+        }
     }
 }

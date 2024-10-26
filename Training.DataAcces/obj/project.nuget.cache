@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/y1sgGQ9tb0=",
+  "dgSpecHash": "gFEyV4DLZkY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Afnan\\source\\repos\\Training\\Training.DataAcces\\Training.DataAcces.csproj",
+  "projectFilePath": "I:\\.GTHR\\Training\\Training.DataAcces\\Training.DataAcces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Afnan\\.nuget\\packages\\efcore.namingconventions\\8.0.3\\efcore.namingconventions.8.0.3.nupkg.sha512",
     "C:\\Users\\Afnan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
