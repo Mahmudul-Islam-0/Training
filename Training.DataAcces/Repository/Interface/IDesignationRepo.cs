@@ -9,7 +9,5 @@ namespace Training.DataAcces.Repository.Interface
 {
     public interface IDesignationRepo : IRepository<Designation>
     {
-        Task AddAsync(Designation designation);
     }
-
 }

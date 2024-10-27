@@ -14,6 +14,5 @@ namespace Training.DataAcces.Repository
         public IEmployeeRepo EmployeeRepo { get; }
 
         public IDesignationRepo DesignationRepo { get; }
-        Task Save();
     }
 }

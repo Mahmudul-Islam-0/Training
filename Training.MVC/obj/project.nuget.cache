@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IlAlHKIBw7k=",
+  "dgSpecHash": "T7JL9ZDNXpc=",
   "success": true,
-  "projectFilePath": "I:\\.GTHR\\Training\\Training.MVC\\Training.MVC.csproj",
+  "projectFilePath": "C:\\Users\\Afnan\\source\\repos\\Training\\Training.MVC\\Training.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Afnan\\.nuget\\packages\\efcore.namingconventions\\8.0.3\\efcore.namingconventions.8.0.3.nupkg.sha512",
     "C:\\Users\\Afnan\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

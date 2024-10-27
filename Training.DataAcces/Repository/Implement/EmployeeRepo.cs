@@ -15,11 +15,6 @@ namespace Training.DataAcces.Repository.Implement
         {
         }
 
-        public async Task AddAsync(Employee model)
-        {
-            if (model == null) throw new ArgumentNullException(nameof(model));
-            await db.Set<Employee>().AddAsync(model);
-        }
         public async Task<List<Employee>> GetIncludedept()
         {
            return await db.Employees.Include(d => d.Department).ToListAsync();

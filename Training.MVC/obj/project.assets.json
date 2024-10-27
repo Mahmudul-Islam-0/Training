@@ -6278,11 +6278,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\.GTHR\\Training\\Training.MVC\\Training.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Afnan\\source\\repos\\Training\\Training.MVC\\Training.MVC.csproj",
       "projectName": "Training.MVC",
-      "projectPath": "I:\\.GTHR\\Training\\Training.MVC\\Training.MVC.csproj",
+      "projectPath": "C:\\Users\\Afnan\\source\\repos\\Training\\Training.MVC\\Training.MVC.csproj",
       "packagesPath": "C:\\Users\\Afnan\\.nuget\\packages\\",
-      "outputPath": "I:\\.GTHR\\Training\\Training.MVC\\obj\\",
+      "outputPath": "C:\\Users\\Afnan\\source\\repos\\Training\\Training.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Afnan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6300,8 +6300,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "I:\\.GTHR\\Training\\Training.DataAcces\\Training.DataAcces.csproj": {
-              "projectPath": "I:\\.GTHR\\Training\\Training.DataAcces\\Training.DataAcces.csproj"
+            "C:\\Users\\Afnan\\source\\repos\\Training\\Training.DataAcces\\Training.DataAcces.csproj": {
+              "projectPath": "C:\\Users\\Afnan\\source\\repos\\Training\\Training.DataAcces\\Training.DataAcces.csproj"
             }
           }
         }

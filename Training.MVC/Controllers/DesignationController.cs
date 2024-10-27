@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Training.DataAcces.Repository;
 using Training.DataAcces.Repository.Interface;
-using Training.Models.Entity;
 
 namespace Training.MVC.Controllers
 {
@@ -13,47 +12,21 @@ namespace Training.MVC.Controllers
         {
             this.unitOfWork = unitOfWork;
         }
-
-        public async Task<IActionResult> DesignationView()
+        public async Task <IActionResult> Index()
         {
-            var designations = await unitOfWork.DesignationRepo.GetAll(); 
-            return View(designations);
+            var ListDesig = await unitOfWork.DepartmentRepo.GetAll();
+            return Ok(ListDesig);
         }
 
-        public IActionResult DesignationSave()
+        public async Task<IActionResult> EmployeeList()
         {
-            return View(); 
+            var ListDesig = await unitOfWork.EmployeeRepo.GetAll();
+            return Ok(ListDesig);
         }
-
-        [HttpPost]
-        public async Task<IActionResult> DesignationSave(Designation designation) 
+        public async Task<IActionResult> DesignationList()
         {
-            if (ModelState.IsValid)
-            {
-                await unitOfWork.DesignationRepo.AddAsync(designation);
-                await unitOfWork.DesignationRepo.Save(); 
-                return RedirectToAction("DesignationView"); 
-            }
-            return View(designation); 
+            var ListDesig = await unitOfWork.DesignationRepo.GetAll();
+            return Ok(ListDesig);
         }
-
-        [HttpGet]
-
-        public async Task<IActionResult> Delete (string id)
-        {
-            var designation = await unitOfWork.DesignationRepo.GetById(id);
-            if (designation is null)
-            {
-                return NotFound();
-            }
-
-            unitOfWork.DesignationRepo.Delete(designation);
-            await unitOfWork.DesignationRepo.Save();
-
-            return RedirectToAction(nameof(DesignationView));
-        }
-
-
-
     }
 }
