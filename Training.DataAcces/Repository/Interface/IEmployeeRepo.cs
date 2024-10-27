@@ -9,6 +9,9 @@ namespace Training.DataAcces.Repository.Interface
 {
     public interface IEmployeeRepo : IRepository<Employee>
     {
+        Task AddAsync(Employee employee);
         Task<List<Employee>> GetIncludedept();
+        Task<List<Employee>> GetAllAsync();
+
     }
 }

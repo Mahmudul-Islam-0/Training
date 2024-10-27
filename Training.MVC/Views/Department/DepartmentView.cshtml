@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Training.Models.Entity.Department>
+
+@{
+    ViewData["Title"] = "DepartmentView";
+}
+
+<h1>DepartmentView</h1>
+
+
+<h2>Department List</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in Model)
+        {
+            <tr>
+                <td>@department.Id</td>
+                <td>@department.Name</td>
+                <td>
+                    <h1><a asp-action="Delete" asp-controller="Department" asp-route-Id="@department.Id" class="btn btn-primary">Delete</a></h1>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("DepartmentSave")">Add New Department</a>

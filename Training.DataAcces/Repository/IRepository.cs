@@ -14,7 +14,7 @@ namespace Training.DataAcces.Repository
 
         Task<List<T>> GetAll();
 
-        Task<T> GetById(object id);
+        Task<T> GetById(string id);
 
         Task Save();
     }

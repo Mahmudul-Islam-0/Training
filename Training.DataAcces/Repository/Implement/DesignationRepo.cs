@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,12 @@ namespace Training.DataAcces.Repository.Implement
         public DesignationRepo(TrainingDBContext db) : base(db)
         {
         }
+
+        public async Task AddAsync(Designation model)
+        {
+            if (model == null) throw new ArgumentNullException(nameof(model));
+            await db.Set<Designation>().AddAsync(model); 
+        }
+
     }
 }

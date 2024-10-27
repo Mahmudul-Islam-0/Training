@@ -26,6 +26,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = I:\.GTHR\Training\Training.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[I:/.GTHR/Training/Training.MVC/Views/Department/DepartmentSave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXBhcnRtZW50U2F2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[I:/.GTHR/Training/Training.MVC/Views/Department/DepartmentView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXBhcnRtZW50Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[I:/.GTHR/Training/Training.MVC/Views/Designation/DesignationSave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzaWduYXRpb25cRGVzaWduYXRpb25TYXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[I:/.GTHR/Training/Training.MVC/Views/Designation/DesignationView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzaWduYXRpb25cRGVzaWduYXRpb25WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[I:/.GTHR/Training/Training.MVC/Views/Employee/EmployeeSave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVTYXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[I:/.GTHR/Training/Training.MVC/Views/Employee/EmployeeView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [I:/.GTHR/Training/Training.MVC/Views/Home/DepartmentSave.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBhcnRtZW50U2F2ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

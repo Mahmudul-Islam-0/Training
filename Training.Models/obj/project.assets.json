@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Afnan\\source\\repos\\Training\\Training.Models\\Training.Models.csproj",
+      "projectUniqueName": "I:\\.GTHR\\Training\\Training.Models\\Training.Models.csproj",
       "projectName": "Training.Models",
-      "projectPath": "C:\\Users\\Afnan\\source\\repos\\Training\\Training.Models\\Training.Models.csproj",
+      "projectPath": "I:\\.GTHR\\Training\\Training.Models\\Training.Models.csproj",
       "packagesPath": "C:\\Users\\Afnan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Afnan\\source\\repos\\Training\\Training.Models\\obj\\",
+      "outputPath": "I:\\.GTHR\\Training\\Training.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Afnan\\AppData\\Roaming\\NuGet\\NuGet.Config",

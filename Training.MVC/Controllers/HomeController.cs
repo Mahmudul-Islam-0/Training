@@ -160,12 +160,12 @@ namespace Training.MVC.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            var department = new Department()
-            {
-                Name = model.Name
-            };
-            unitOfWork.DepartmentRepo.Add(department);
-            await unitOfWork.DepartmentRepo.Save();
+            //var department = new DepartmentController()
+            //{
+            //    Name = model.Name
+            //};
+            //unitOfWork.DepartmentRepo.Add(department);
+            //await unitOfWork.DepartmentRepo.Save();
 
             return RedirectToAction(nameof(Index));
         }

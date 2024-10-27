@@ -39,7 +39,7 @@ namespace Training.DataAcces.Repository
 
         }
 
-        public async Task<T> GetById(object id)
+        public async Task<T> GetById(string id)
         {
             return await db.Set<T>().FindAsync(id);
         }
